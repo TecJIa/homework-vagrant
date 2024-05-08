@@ -6,13 +6,13 @@
 
 ---
 - Этап 1: Загружена виртуальная машина из Vagrantfile c ядром 4.18 
-![alt text](./images/1.png)
+![images2](./images/1.png)
 
 - Этап 2: Подключен репозиторий. Выполнены команды из инструкции 
 ```bash
 sudo yum install -y https://www.elrepo.org/elrepo-release-7.el7.elrepo.noarch.rpm 
 ```
-![alt text](./images/2.png)
+![images2](./images/2.png)
 
 - Этап 3: Обновлено ядро. Выполнены команды из инструкции
 ```bash
@@ -25,4 +25,4 @@ sudo yum --enablerepo elrepo-kernel install kernel-ml -y
 sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 sudo grub2-set-default 0
 ```
-![images2](./images/43.png)
+![images2](./images/4.png)
